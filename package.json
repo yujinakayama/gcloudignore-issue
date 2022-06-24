@@ -1,1 +1,28 @@
-{}
+{
+  "name": "gcloudignore-issue",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test_github_actions_ignore": "ts-node test_github_actions_ignore.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gist.github.com/a5bc862b4ca31cd0cac9cf3a85b4fbf8.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gist.github.com/a5bc862b4ca31cd0cac9cf3a85b4fbf8"
+  },
+  "homepage": "https://gist.github.com/a5bc862b4ca31cd0cac9cf3a85b4fbf8",
+  "description": "",
+  "dependencies": {
+    "@google-github-actions/actions-utils": "^0.4.0",
+    "@types/glob": "^7.2.0",
+    "glob": "^8.0.3",
+    "ignore": "^5.2.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
